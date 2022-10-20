@@ -1,0 +1,51 @@
+.App {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.full_table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.full_table thead tr {
+  background: linear-gradient(to bottom right, #985900, #ff9a5a);;
+  color: #ffffff;
+  text-align: left;
+}
+.full_table th,
+.full_table td {
+  padding: 12px 15px;
+}
+.full_table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.full_table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.submit_btn {
+  background: linear-gradient(to bottom right, #985900, #ff9a5a);
+  border: 0;
+  width: 150px;
+  border-radius: 7px;
+  color: #ffffff;
+  cursor: pointer;
+font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+padding: 0 1rem;
+  text-align: center;
+transition: box-shadow 0.2s ease-in-out;
+}
+.submit_btn:disabled {
+  background:linear-gradient(to bottom right, #271804, #381c0b) ;
+}
+
